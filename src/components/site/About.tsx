@@ -34,7 +34,7 @@ export function About() {
       <div className="absolute -top-40 -right-40 w-96 h-96 bg-[radial-gradient(circle_at_center,_color-mix(in_oklab,var(--gold)_10%,transparent),transparent_70%)] rounded-full pointer-events-none" />
       
       {/* Giant subtle monogram watermark */}
-      <div className="absolute top-1/2 left-[55%] -translate-x-1/2 -translate-y-1/2 text-[40vw] font-display text-white/[0.015] leading-none select-none pointer-events-none font-bold italic tracking-tighter mix-blend-overlay">
+      <div className="absolute top-1/2 left-[55%] -translate-x-1/2 -translate-y-1/2 text-[40vw] font-display text-white/[0.015] leading-none select-none pointer-events-none font-bold italic tracking-tighter">
         EG
       </div>
 
@@ -54,12 +54,12 @@ export function About() {
               <img
                 src="/475041296_600147886091984_448001193641357333_n.jpg"
                 alt="Elaine Gomez"
-                className="w-full h-full object-cover object-[center_20%] transition-transform duration-[3s] group-hover:scale-[1.03] filter contrast-125 saturate-[0.85]"
+                className="w-full h-full object-cover object-[center_20%] transition-transform duration-[3s] group-hover:scale-[1.03]"
               />
             </motion.div>
             {/* Cinematic shadows inside frame */}
             <div className="absolute inset-0 bg-gradient-to-t from-midnight via-midnight/20 to-transparent opacity-80" />
-            <div className="absolute inset-0 border-[10px] border-midnight/10 mix-blend-overlay" />
+            <div className="absolute inset-0 border-[10px] border-midnight/10" />
             
             {/* Corner brackets */}
             <div className="absolute top-4 left-4 w-12 h-12 border-t border-l border-gold/40" />

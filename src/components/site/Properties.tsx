@@ -22,7 +22,7 @@ function PropertyCard({ p, onOpen, index }: { p: Property; onOpen: () => void; i
         <img 
           src={p.image} 
           alt={p.name} 
-          className="w-full h-full object-cover filter contrast-110 saturate-[0.9] transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105" 
+          className="w-full h-full object-cover transition-transform duration-[2s] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105" 
         />
       </div>
 

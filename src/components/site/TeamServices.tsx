@@ -4,7 +4,7 @@ import { useRef, useState, useEffect } from "react";
 import { useLang } from "./LanguageContext";
 
 const icons = [Scale, KeyRound, Building2, Landmark, Plane, Globe2];
-const TEAM_BG = "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2400&q=85";
+const TEAM_BG = "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85";
 
 const serviceImages = [
   "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=1200&q=80", // Legal
@@ -42,7 +42,7 @@ export function TeamServices() {
           <img
             src={TEAM_BG}
             alt="Luxury real estate interior"
-            className="w-full h-full object-cover filter contrast-[1.1] saturate-[0.8]"
+            className="w-full h-full object-cover opacity-80"
           />
         </motion.div>
         
@@ -134,7 +134,7 @@ export function TeamServices() {
                   <img 
                     src={serviceImages[activeIdx]} 
                     alt="Service background" 
-                    className="w-full h-full object-cover opacity-30 filter contrast-125 saturate-50"
+                    className="w-full h-full object-cover opacity-20"
                   />
                   {/* Heavy vignette so text remains perfectly readable */}
                   <div className="absolute inset-0 bg-gradient-to-t from-midnight via-midnight/50 to-transparent" />

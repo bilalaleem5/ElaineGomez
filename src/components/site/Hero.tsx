@@ -4,13 +4,13 @@ import { useLang } from "./LanguageContext";
 
 // 7 luxury property images – all kept in DOM for zero-blank crossfade
 const HERO_IMAGES = [
-  "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=2400&q=90",
-  "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=2400&q=90",
-  "https://images.unsplash.com/photo-1613490908677-7427187494f6?auto=format&fit=crop&w=2400&q=90",
-  "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2400&q=90",
-  "https://images.unsplash.com/photo-1600566753086-00f18efc2291?auto=format&fit=crop&w=2400&q=90",
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2400&q=90",
-  "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=2400&q=90",
+  "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+  "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+  "https://images.unsplash.com/photo-1613490908677-7427187494f6?auto=format&fit=crop&w=1200&q=80",
+  "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+  "https://images.unsplash.com/photo-1600566753086-00f18efc2291?auto=format&fit=crop&w=1200&q=80",
+  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+  "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80",
 ];
 
 export function Hero() {

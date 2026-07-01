@@ -2,7 +2,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { useLang } from "./LanguageContext";
 
-const DR_BG = "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=2400&q=85";
+const DR_BG = "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=85";
 
 // Extra visuals for the stats section
 const STAT_ICONS = ["🏆", "✈️", "🏨", "🛂"];
