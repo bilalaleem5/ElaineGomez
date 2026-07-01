@@ -29,12 +29,12 @@ function PropertyCard({ p, onOpen, index }: { p: Property; onOpen: () => void; i
       {/* Permanent bottom shadow for text legibility */}
       <div className="absolute inset-0 bg-gradient-to-t from-midnight via-midnight/20 to-transparent opacity-90 transition-opacity duration-700 group-hover:opacity-100" />
       
-      {/* Dark blur overlay on hover to make text pop */}
-      <div className="absolute inset-0 bg-midnight/50 opacity-0 group-hover:opacity-100 transition-all duration-700 backdrop-blur-[4px]" />
+      {/* Dark overlay on hover to make text pop */}
+      <div className="absolute inset-0 bg-midnight/80 opacity-0 group-hover:opacity-100 transition-all duration-700" />
 
       {/* Top Badges */}
       <div className="absolute top-6 left-6 right-6 flex justify-between items-start z-20">
-        <div className="px-4 py-2 bg-midnight/50 backdrop-blur-xl border border-gold/30 text-[9px] font-bold uppercase tracking-[0.35em] text-gold">
+        <div className="px-4 py-2 bg-midnight/90 border border-gold/30 text-[9px] font-bold uppercase tracking-[0.35em] text-gold">
           {p.status[lang]}
         </div>
         {p.price && (

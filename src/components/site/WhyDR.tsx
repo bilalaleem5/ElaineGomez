@@ -127,7 +127,7 @@ export function WhyDR() {
                 className="group relative overflow-hidden rounded-none border border-gold/10 hover:border-gold/35 transition-colors duration-1000"
               >
                 {/* Glass background */}
-                <div className="absolute inset-0 bg-midnight/40 backdrop-blur-3xl" />
+                <div className="absolute inset-0 bg-midnight/95" />
                 
                 {/* Hover gradient sweep — smooth fade */}
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-1000 ease-out bg-gradient-to-b from-gold/8 to-transparent" />

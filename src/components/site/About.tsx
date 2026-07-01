@@ -31,7 +31,7 @@ export function About() {
     <section ref={ref} className="relative py-32 md:py-48 px-6 lg:px-12 overflow-hidden bg-midnight border-t border-gold/10">
       {/* Editorial Background Elements */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_50%,_color-mix(in_oklab,var(--gold)_4%,transparent),transparent_60%)]" />
-      <div className="absolute -top-40 -right-40 w-96 h-96 bg-gold/5 blur-[120px] rounded-full pointer-events-none" />
+      <div className="absolute -top-40 -right-40 w-96 h-96 bg-[radial-gradient(circle_at_center,_color-mix(in_oklab,var(--gold)_10%,transparent),transparent_70%)] rounded-full pointer-events-none" />
       
       {/* Giant subtle monogram watermark */}
       <div className="absolute top-1/2 left-[55%] -translate-x-1/2 -translate-y-1/2 text-[40vw] font-display text-white/[0.015] leading-none select-none pointer-events-none font-bold italic tracking-tighter mix-blend-overlay">
@@ -69,7 +69,7 @@ export function About() {
           {/* Floating Glass Box — Parallaxed */}
           <motion.div
             style={{ y: badgeY }}
-            className="absolute -right-8 -bottom-12 lg:-right-16 lg:-bottom-16 w-64 p-6 rounded-sm bg-midnight/60 backdrop-blur-3xl border border-gold/30 shadow-[0_20px_50px_rgba(0,0,0,0.6)]"
+            className="absolute -right-8 -bottom-12 lg:-right-16 lg:-bottom-16 w-64 p-6 rounded-sm bg-midnight/95 border border-gold/30 shadow-[0_20px_50px_rgba(0,0,0,0.6)]"
           >
             {/* Shimmer effect */}
             <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-gold/10 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
@@ -150,7 +150,7 @@ export function About() {
             </div>
 
             {/* Signature & Social */}
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8 bg-ink/40 border border-gold/10 p-6 rounded-lg backdrop-blur-xl hover:border-gold/30 transition-colors duration-700">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8 bg-ink/95 border border-gold/10 p-6 rounded-lg hover:border-gold/30 transition-colors duration-700">
               <div className="flex items-center gap-6">
                 <img src="/476901930_608850395221733_6041988129030873641_n.jpg" alt="Elaine" className="w-14 h-14 rounded-full object-cover border border-gold/40" />
                 <div>

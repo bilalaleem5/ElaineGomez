@@ -74,7 +74,7 @@ export function HowItWorks() {
                       {i + 1}
                     </div>
 
-                    <div className="relative p-8 lg:p-10 rounded-2xl bg-midnight/40 backdrop-blur-2xl border border-gold/10 hover:border-gold/30 hover:bg-midnight/60 transition-all duration-[1000ms] ease-out shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden h-full flex flex-col">
+                    <div className="relative p-8 lg:p-10 rounded-2xl bg-midnight/90 border border-gold/10 hover:border-gold/30 transition-all duration-[1000ms] ease-out shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden h-full flex flex-col">
                       {/* Hover Sweep Flare */}
                       <div className="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/5 to-white/0 opacity-0 group-hover:opacity-100 transition-opacity duration-1000 pointer-events-none transform -translate-x-full group-hover:animate-[sweep_2.5s_ease-out_forwards]" />
                       

@@ -202,7 +202,7 @@ export function Hero() {
             transition={{ duration: 1.4, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="hidden lg:block lg:col-span-4"
           >
-            <div className="p-9 rounded-3xl bg-midnight/25 backdrop-blur-3xl border border-gold/20 shadow-[0_30px_100px_rgba(0,0,0,0.5)]">
+            <div className="p-9 rounded-3xl bg-midnight/90 border border-gold/20 shadow-[0_30px_100px_rgba(0,0,0,0.5)]">
               <img src="/Favicon.png" alt="EG" className="w-20 h-20 object-contain mb-7 drop-shadow-[0_0_20px_rgba(255,215,0,0.35)]" />
               <div className="text-gold text-xs font-bold uppercase tracking-[0.4em] mb-4">Exclusive Access</div>
               <p className="text-ivory text-xl font-display leading-snug mb-8">

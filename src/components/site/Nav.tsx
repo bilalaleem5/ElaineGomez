@@ -32,7 +32,7 @@ export function Nav() {
         transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
         className={`fixed inset-x-0 top-0 z-50 transition-all duration-700 ${
           scrolled
-            ? "backdrop-blur-2xl bg-midnight/70 border-b border-gold/10 py-3 shadow-[0_10px_40px_rgba(0,0,0,0.5)]"
+            ? "bg-midnight/95 border-b border-gold/10 py-3 shadow-[0_10px_40px_rgba(0,0,0,0.5)]"
             : "bg-transparent py-8"
         }`}
       >

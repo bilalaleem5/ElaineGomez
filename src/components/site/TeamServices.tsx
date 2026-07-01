@@ -120,7 +120,7 @@ export function TeamServices() {
 
           {/* RIGHT: Sticky Stage Area (Zero Layout Thrashing, only opacity/transform) */}
           <div className="lg:col-span-6 sticky top-32 lg:top-40 h-[400px] md:h-[450px]">
-            <div className="absolute inset-0 bg-midnight/80 backdrop-blur-3xl border border-gold/15 rounded-sm shadow-[0_40px_100px_rgba(0,0,0,0.8)] overflow-hidden">
+            <div className="absolute inset-0 bg-midnight/95 border border-gold/15 rounded-sm shadow-[0_40px_100px_rgba(0,0,0,0.8)] overflow-hidden">
               
               <AnimatePresence mode="wait">
                 <motion.div
@@ -143,7 +143,7 @@ export function TeamServices() {
               </AnimatePresence>
 
               {/* Static decorative background accents */}
-              <div className="absolute top-0 right-0 w-64 h-64 bg-gold/10 blur-[80px] pointer-events-none z-10" />
+              <div className="absolute top-0 right-0 w-64 h-64 bg-[radial-gradient(circle_at_center,_color-mix(in_oklab,var(--gold)_10%,transparent),transparent_70%)] pointer-events-none z-10" />
               <div className="absolute top-4 right-4 w-12 h-12 border-t border-r border-gold/30 pointer-events-none z-20" />
               <div className="absolute bottom-4 left-4 w-12 h-12 border-b border-l border-gold/30 pointer-events-none z-20" />
 
@@ -160,7 +160,7 @@ export function TeamServices() {
                   {(() => {
                     const ActiveIcon = icons[activeIdx];
                     return (
-                      <div className="w-20 h-20 md:w-24 md:h-24 rounded-full border border-gold/30 bg-midnight/50 backdrop-blur-md shadow-[0_0_30px_rgba(212,175,55,0.15)] flex items-center justify-center mb-10">
+                      <div className="w-20 h-20 md:w-24 md:h-24 rounded-full border border-gold/30 bg-midnight/90 shadow-[0_0_30px_rgba(212,175,55,0.15)] flex items-center justify-center mb-10">
                         <ActiveIcon className="w-8 h-8 md:w-10 md:h-10 text-gold" strokeWidth={1.5} />
                       </div>
                     );

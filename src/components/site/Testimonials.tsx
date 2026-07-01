@@ -21,7 +21,7 @@ export function Testimonials() {
     <section id="testimonials" ref={ref} className="relative py-40 md:py-64 px-6 lg:px-12 bg-midnight border-b border-gold/10 overflow-hidden">
       {/* ── Cinematic Atmosphere ── */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,_color-mix(in_oklab,var(--gold)_5%,transparent),transparent_60%)] pointer-events-none" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gold/5 blur-[120px] rounded-full pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[radial-gradient(circle_at_center,_color-mix(in_oklab,var(--gold)_10%,transparent),transparent_70%)] rounded-full pointer-events-none" />
 
       <div className="max-w-[1500px] mx-auto relative z-10">
         
@@ -63,13 +63,13 @@ export function Testimonials() {
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ duration: 1.4, delay: i * 0.2, ease: [0.22, 1, 0.36, 1] }}
                   style={{ willChange: "opacity, transform, filter" }}
-                  className="group relative p-10 lg:p-14 rounded-2xl bg-midnight/60 backdrop-blur-3xl border border-gold/10 hover:border-gold/40 hover:bg-midnight/80 transition-all duration-[1000ms] ease-out shadow-[0_30px_60px_rgba(0,0,0,0.6)] overflow-hidden flex flex-col h-full"
+                  className="group relative p-10 lg:p-14 rounded-2xl bg-midnight/90 border border-gold/10 hover:border-gold/40 transition-all duration-[1000ms] ease-out shadow-[0_30px_60px_rgba(0,0,0,0.6)] overflow-hidden flex flex-col h-full"
                 >
                   {/* Hover Light Sweep */}
                   <div className="absolute inset-0 bg-gradient-to-br from-gold/0 via-gold/5 to-gold/0 opacity-0 group-hover:opacity-100 transition-opacity duration-1000 pointer-events-none transform -translate-x-full group-hover:animate-[sweep_2.5s_ease-out_forwards]" />
                   
                   {/* Glowing corner accent */}
-                  <div className="absolute top-0 right-0 w-40 h-40 bg-gold/10 blur-[60px] opacity-0 group-hover:opacity-100 transition-opacity duration-1000 pointer-events-none" />
+                  <div className="absolute top-0 right-0 w-40 h-40 bg-[radial-gradient(circle_at_center,_color-mix(in_oklab,var(--gold)_20%,transparent),transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-1000 pointer-events-none" />
 
                   {/* Animated Star Rating */}
                   <div className="flex gap-2 mb-10 relative z-10">

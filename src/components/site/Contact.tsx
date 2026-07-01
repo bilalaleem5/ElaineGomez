@@ -109,7 +109,7 @@ export function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-            className="lg:col-span-3 space-y-6 p-10 md:p-14 rounded-2xl border border-gold/20 bg-ink/40 backdrop-blur-2xl relative overflow-hidden group hover:border-gold/40 transition-all duration-700 shadow-[0_30px_100px_rgba(0,0,0,0.5)]"
+            className="lg:col-span-3 space-y-6 p-10 md:p-14 rounded-2xl border border-gold/20 bg-ink/95 relative overflow-hidden group hover:border-gold/40 transition-all duration-700 shadow-[0_30px_100px_rgba(0,0,0,0.5)]"
           >
             {/* Corner accent */}
             <div className="absolute top-0 left-0 w-24 h-24 border-t-2 border-l-2 border-gold/20 rounded-tl-2xl group-hover:border-gold/60 transition-colors duration-700" />
